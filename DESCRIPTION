@@ -1,5 +1,5 @@
 Package: cbeUtils
-Title: What the Package Does (One Line, Title Case)
+Title: Various utility functions for WDFW and FRAM team work
 Version: 0.0.0.9000
 Authors@R: 
     person("Collin", "Edwards", , "Collin.Edwards@dfw.wa.gov", role = c("aut", "cre"),
@@ -9,5 +9,13 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-URL: https://github.com/cbedwards-dfw/cbeUtils
+URL: https://github.com/cbedwards-dfw/cbeUtils, https://cbedwards-dfw.github.io/cbeUtils/
 BugReports: https://github.com/cbedwards-dfw/cbeUtils/issues
+Imports: 
+    anytime,
+    cli,
+    clipr,
+    dplyr,
+    lubridate,
+    purrr,
+    rlang
